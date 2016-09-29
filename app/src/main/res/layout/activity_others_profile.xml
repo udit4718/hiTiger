@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.hcs.hitiger.activities.OthersProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/user_header_detail"
+                layout="@layout/header_user_detail"/>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/all_selected_sports_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:flexWrap="wrap"
+                app:justifyContent="center"
+                app:layout_alignSelf="baseline"/>
+
+            <RelativeLayout
+                android:id="@+id/common_layout"
+                style="@style/another_profile_relative_layout_style">
+
+                <FrameLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/you_and_player"/>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/you_and_player_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:text="You and Shasank"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/medium"/>
+
+                <View
+                    style="@style/line_in_other_profile_style"
+                    android:layout_below="@id/you_and_player_text"/>
+
+            </RelativeLayout>
+
+            <com.hcs.hitiger.NonScrollListView
+                android:id="@+id/common_clubs"
+                style="@style/non_scrollable_list_layout"
+                android:layout_below="@id/you_and_player_text"/>
+
+            <RelativeLayout
+                android:id="@+id/more_layout"
+                style="@style/another_profile_relative_layout_style">
+
+                <FrameLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/more_about_you"/>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:text="More"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/medium"/>
+
+                <View
+                    style="@style/line_in_other_profile_style"
+                    android:layout_below="@id/more"/>
+            </RelativeLayout>
+
+
+            <com.hcs.hitiger.NonScrollListView
+                android:id="@+id/more_clubs"
+                style="@style/non_scrollable_list_layout"
+                android:layout_below="@id/more"
+                android:layout_marginBottom="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

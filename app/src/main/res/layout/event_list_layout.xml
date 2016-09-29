@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/calendar"/>
+
+        <TextView
+            android:id="@+id/new_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="24dp"
+            android:textColor="@color/textColorGrey"
+            android:textSize="@dimen/medium"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_layout"
+        android:background="@drawable/white_background_with_border">
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <include
+                layout="@layout/opportunity_layout"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/single_line_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/top_layout"
+            android:layout_marginBottom="16dp"
+            android:background="@color/nintyPercentOfWhite"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/requesters_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_layout"
+            android:background="@drawable/event_requester"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="4dp"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:id="@+id/add_image"
+                style="@style/image_frame_style">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/request_to_play"/>
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_right"/>
+
+            <TextView
+                android:id="@+id/requesters_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_toRightOf="@id/add_image"
+                android:singleLine="true"
+                android:text="Tushar and 4 other request you"
+                android:textColor="@color/textColorGrey"
+                android:textSize="@dimen/medium"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/user_detail_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/single_line_view"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="16dp"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/user_profile_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_profile_default_image"/>
+
+                <ImageView
+                    android:id="@+id/message_image"
+                    style="@style/chat_image_style"
+                    android:src="@drawable/chat"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toLeftOf="@id/message_image"
+                    android:layout_toRightOf="@id/user_profile_image"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/medium"/>
+
+                    <TextView
+                        android:id="@+id/number_of_game_played_by_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorGrey"
+                        android:textSize="@dimen/medium"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/call_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/decline_button"
+                    style="@style/decline_button_style"
+                    android:text="@string/decline"/>
+
+                <TextView
+                    android:id="@+id/call_button"
+                    style="@style/call_button_style"
+                    android:text="Call"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fixed_with"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/user_detail_layout"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="58dp"
+            android:background="@drawable/light_background_without_border"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp"
+            android:text="@string/fix_with"
+            android:textColor="@color/textColorGrey"
+            android:textSize="@dimen/medium"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

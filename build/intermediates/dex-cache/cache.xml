@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_b26c5aaffe1de5ffb9540d4192aef095f2843a80/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_ccd80efc320cd7fa8371eca759faa1f67325ba87/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_96f023b007911876bf6c74362a1ce6b36ae65f35/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.0.1/1a30a909633fc011e36a3b33be934deadd0fecbc/stetho-1.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1a30a909633fc011e36a3b33be934deadd0fecbc">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/stetho-1.0.1_f8f19412f890f8f48ad3d28d4d726fe1d2a11bf3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.3.0_38dd8671b4c4c4ea49186dfe03bafc6a111273bb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-cli-1.2_f9865fd2077a8a349da3d1701334baa4a330708a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fc18392827db21eaf25640184164d3eefe28f59f">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d31f77604fec797383a05fe800a0202f93161f41/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_d56f5f91e0e97926389dc26b02a048861f8f2c44/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_8317913d3adba8be7533b0a8f74aa5762ea00b80/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.2_43a3a39be2bb3f2407b1ab5bb2d1a3bf008c8bf1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_9a3dfe3f38f7f0be1f40e3f8a1a4e2ec2262ba7b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_6003165b6db52da8776a70ea2658528d98de93c0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/libs/aws-android-sdk-core-2.2.18.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9c56e6b060ecfb2b68f4faa2d473e88252ef9244">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/2/aws-android-sdk-core-2.2.18_58927a7167edacc169af7cc08f7b0b6c2397d548/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e99413cdc93bd7b001d312a4a33d25ac21042f69">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.2_350acda5e179efaa581d1695226639a60fb2cce6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_1d613feaa02fdbdb511e6b4d874aeb9708ea8cee/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp/1.0.1/a78d4229c691f5fa8189a47135490969afb6416f/stetho-okhttp-1.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a78d4229c691f5fa8189a47135490969afb6416f">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/stetho-okhttp-1.0.1_eb6cd93de83813ec36d8e2eddfb9231edb438620/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_0157f79ba3a03e8777a33a8f3469e35dfabbd4fa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_69a9b84b259b56d68cb15fd52b9d863075a53078/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.3.0/4f12ec1e1455909e1f0b8530c719c90b2d01745/okhttp-urlconnection-2.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="04f12ec1e1455909e1f0b8530c719c90b2d01745">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-2.3.0_cdab3d930d939683f85540660c8ca5568540a652/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.6/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fc82596d7f7683c8b3a7e5715a2ed5295c586887">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.6_a37fea3ce409a426dac39436d97df842fbf0c0d2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_c0178e353d2e027e7c13d99102a29524ee19f0b1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_63877cb5a22f1296b745ec318e6cbe4adf85b37c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_1df69580868d2c9fc497d0fa0746ec2522ef6fea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_b164488bf7c25a71981c945d1ecd15e5848428f1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.5/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d18ba1d0eff55680fdf9a35f70a6091e4bc1adcb">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.5_082594a897f1af2028b840e1f59333f65643b077/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_ecaa4f4f8d880c49c0ec8905594c048cf41b1dde/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_b26997dbe1e837432d6c4340a70077aebf00e6e0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_1fb48eeb7dc33ca90a5ad244a91964739e3d3cfd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android/flexbox/0.1.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4518a08c24973f882c444ae2b0f8023ea9f0ff1f">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android-flexbox-0.1.2_b2e7baed4e2122d8c7c156820ba9f22abace3884/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/libs/aws-android-sdk-s3-2.2.18.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3f7b0eca6b31e021d715fd2f0dfdd51c4ae1d4bb">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/2/aws-android-sdk-s3-2.2.18_f13f12c3cc67273f4fb4c61ca56bc745997ecd69/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.3.0_6611c2027b6b72be0cc8142350fd1568a5bed23a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/libs/aws-android-sdk-cognito-2.2.18.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0af209db582b3dd368757e97e327e2db7bdc969b">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/2/aws-android-sdk-cognito-2.2.18_72f6bae24737aa0d3e4cd2ac50792975db628e72/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_192adc219965e47e30ee33ccdcfc619b5a099959/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-23.4.0_1f12aa42d09464b586b6adf0e80356bedb908bc0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-6.1.0_59bfee62e10008a517255108415b4d1c24a7f498/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-1.9.0_1ca027817714ceaaf90c56dae32f63ca88d56f5b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_65e82b47f19f0bad5a4ceaf158115eacf9025a75/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="46ae9d1101ec779c04924f9812d9b5c5d69cd219">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4a01983cc8db972700ffdb4931d8bb89deb0e0ef/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b7a78990c10481f43cb4909f535ef4f11e60f1ab">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.1.3_1bcd767c2d133b2e082ec67986f0624f04548179/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_638f1e7bf9c3aefcf742d908e32f71f0b336097a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/.gradle/caches/modules-2/files-2.1/com.pubnub/pubnub-android/3.7.10/5ea337b9dcdd6c62a2c45471de5fc6da1af63254/pubnub-android-3.7.10.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5ea337b9dcdd6c62a2c45471de5fc6da1af63254">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/pubnub-android-3.7.10_76db3e1460f164c389e8c6b542421911cd487f26/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_1dced8386ba3d99172f0f2ad78a3679bec07db6d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0c7f9fb9a729166c69fa585e01be2fe8fab4f45c">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.5.2_3f07c61869b206bc66a94d886664457ae2f15679/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.13.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ad4d4c5914b7b25e51e66f8e2d1b842c67dd63a9">
+        <dex dex="/Users/Udit1806/Desktop/GitLab_Projects/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.13.1_9f17f7cf6016cb86ae107c004f4422ec85788a42/classes.dex" />
+    </item>
+
+</items>

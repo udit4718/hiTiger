@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.hcs.hitiger.activities.ChatActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/backpress_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:src="@drawable/back_grey"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/other_user_profile_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@id/backpress_button"
+                    android:src="@drawable/ic_profile_default_image"/>
+
+                <TextView
+                    android:id="@+id/other_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_toRightOf="@id/other_user_profile_image"
+                    android:singleLine="true"
+                    android:text="Tushar Tharur"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/large"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="106dp"
+            android:background="@android:color/white">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"/>
+
+            <TextView
+                android:id="@+id/decline_request_button"
+                style="@style/chat_button_style"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/view"
+                android:background="@drawable/white_background_with_border"
+                android:text="@string/cancel_request"
+                android:textColor="@color/textColorGrey"
+                android:textSize="@dimen/small"/>
+
+            <TextView
+                android:id="@+id/finalize_button"
+                style="@style/chat_button_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_toRightOf="@id/view"
+                android:background="@drawable/yellow_background"
+                android:text="Finalize"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/small"/>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_chat"/>
+</android.support.design.widget.CoordinatorLayout>

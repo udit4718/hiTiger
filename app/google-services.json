@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "721612702101",
+    "project_id": "default-demo-app-e579e"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721612702101:android:f36173e948059ccb",
+        "android_client_info": {
+          "package_name": "gcm.play.android.samples.com.gcmquickstart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcO-vYQhFZs3ig6ShT6In9ytm-5_b9LFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721612702101:android:ebdde2b83f13fe3b",
+        "android_client_info": {
+          "package_name": "com.hcs.hitiger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcO-vYQhFZs3ig6ShT6In9ytm-5_b9LFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.InviteFriendsActivity"
+    tools:showIn="@layout/activity_invite_friends_activity">
+
+    <ImageView
+        android:id="@+id/whistle_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_whistle"/>
+
+    <TextView
+        android:id="@+id/invite_friend_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whistle_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Invite your Friends"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/large"/>
+
+    <TextView
+        android:id="@+id/invite_friend_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invite_friend_text"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal"
+        android:text="@string/invite_friend_message"
+        android:textSize="@dimen/large"/>
+
+    <TextView
+        android:id="@+id/invite_friend_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/enable_button_background"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp"
+        android:text="@string/invite_friend"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium"/>
+
+</RelativeLayout>

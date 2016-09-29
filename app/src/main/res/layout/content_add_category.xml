@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hcs.hitiger.activities.AddCategoryActivity"
+    tools:showIn="@layout/activity_add_category">
+
+    <EditText
+        android:id="@+id/enter_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_background_with_border"
+        android:hint="Enter City Name"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:textSize="@dimen/large"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/empty_text_style"
+        android:text="Currently No Clubs category available"/>
+
+    <ListView
+        android:id="@+id/add_category_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_category"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="15dp"
+        android:scrollbarStyle="outsideOverlay">
+
+    </ListView>
+
+</RelativeLayout>

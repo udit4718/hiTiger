@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.YourVenueOrSelectAddressActivity"
+    tools:showIn="@layout/activity_your_venue">
+
+    <TextView
+        android:id="@+id/add_venue_button"
+        style="@style/button_paddin_with_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/white_background_with_rounded_rectangular_grey_border"
+        android:drawableLeft="@drawable/add_grey"
+        android:text="@string/add_venue"
+        android:textColor="@color/textColorGrey" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Your venue categoryList is empty" />
+
+    <ListView
+        android:id="@+id/vanue_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/add_venue_button"
+        android:layout_alignParentTop="true"
+        android:divider="@android:color/transparent"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"></ListView>
+</RelativeLayout>

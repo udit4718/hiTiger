@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hcs.hitiger.activities.NotificationActivity"
+    tools:showIn="@layout/activity_notification">
+
+    <ListView
+        android:id="@+id/notification_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listBackgroundColor"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/empty_notification"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/large"
+        android:visibility="gone"/>
+</RelativeLayout>

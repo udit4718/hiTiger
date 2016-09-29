@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+
+
+    <TextView
+        android:id="@+id/create_opporotunity_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Don't Worry\nCreate your own."
+        android:textColor="@color/textColorGrey"
+        android:textSize="@dimen/extra_large"/>
+
+    <TextView
+        android:id="@+id/create_opportunity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/enable_button_background"
+        android:drawableLeft="@drawable/add"
+        android:drawablePadding="24dp"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="40dp"
+        android:paddingTop="8dp"
+        android:text="Create Opportunity"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium"/>
+
+</LinearLayout>

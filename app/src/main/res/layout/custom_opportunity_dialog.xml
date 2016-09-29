@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/header_view_of_custom_dialog"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/nintyPercentOfWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:id="@+id/request_send_to_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center_horizontal"
+            android:text="Your tennis Match Request sent to"
+            android:textColor="@color/textColorGrey"
+            android:textSize="@dimen/large"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/other_user_profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_profile_default_image"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="14dp"
+            android:text="Tushar Tharur"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/medium"/>
+    </LinearLayout>
+
+    <include
+        layout="@layout/footer_view_of_custom_dialog"/>
+
+</LinearLayout>

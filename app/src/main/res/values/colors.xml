@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1f0f1</color>
+    <color name="colorPrimaryDark">#0f0b1c</color>
+    <color name="disableButtonColor">#4c0f0b1c</color>
+    <color name="yellow">#f9c742</color>
+    <color name="colorAccent">@color/yellow</color>
+    <color name="textColorGrey">#78777c</color>
+    <color name="lightGrey">#a5a5a7</color>
+    <color name="green">#13bc74</color>
+
+    <color name="home_page_background">#f1f1f1</color>
+    <color name="nintyPercentOfWhite">#e6e6e6</color>
+    <color name="sixtyPercentOfWhite">#999999</color>
+    <color name="fiftyPercentOfWhite">#808080</color>
+    <color name="listBackgroundColor">#f1f0f1</color>
+    <color name="fourtyPercentOfWhite">#666666</color>
+    <color name="twentyPercentOfWhite">#333333</color>
+    <color name="thirtyPercentBackgroundColor">#b3b3b3</color>
+    <color name="card_background">#fefefe</color>
+    <color name="blue">#44bcf9</color>
+    <color name="border_grey">#acacae</color>
+    <color name="hintColor">#b2b4b5</color>
+
+    <color name="white">#ffffff</color>
+</resources>

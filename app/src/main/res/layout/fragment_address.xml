@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/place_image"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_location"/>
+
+    <TextView
+        android:id="@+id/place_text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/address_for_opportunity"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/medium"/>
+
+    <RelativeLayout
+        android:id="@+id/fragment_option_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/place_no"
+            style="@style/create_opportunity_default_button_style"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/white_background_with_rounded_rectangular_grey_border"
+            android:text="No"
+            android:textColor="@color/textColorGrey"
+            android:textSize="@dimen/large"/>
+
+        <TextView
+            android:id="@+id/place_yes"
+            style="@style/create_opportunity_default_button_style"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/place_no"
+            android:background="@drawable/dark_grey_rounded_rectangular_button_background"
+            android:text="Yes"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/large"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/message_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/light_background_with_border"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:visibility="gone">
+
+        <include
+            layout="@layout/category_list"/>
+
+    </FrameLayout>
+</LinearLayout>
